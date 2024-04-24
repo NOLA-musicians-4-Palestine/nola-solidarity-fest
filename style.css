@@ -49,8 +49,10 @@ main{
 
 #top{
 	color: red;
-	flex: 1 1 10%;
+	flex: 0 1 10%;
 }
+
+
 #top h1{
 	font-size: 6em;
 	font-family: "Bebas Neue", sans-serif;
@@ -82,7 +84,7 @@ main{
 	border-radius: 40px;
 	background-color: rgba(153, 0, 0, 0.7);
 	box-shadow: -10px 10px 0 rgba(0,0,0,0.4);
-	overflow-y: scroll;
+	overflow: scroll;
 	align-items: center;
 }
 
@@ -148,4 +150,10 @@ footer{
 	background-color: black;
 	padding: 20px;
 	text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+	#top h1{
+		font-size: 4em;
+	}
 }
