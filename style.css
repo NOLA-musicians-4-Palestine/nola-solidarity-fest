@@ -116,6 +116,9 @@ main{
 .event-description{
 	font-size: 0.75em;
 }
+.event a{
+	color: black;
+}
 
 #sign-up{
 	flex: 0 1 auto;
