@@ -95,7 +95,7 @@ main{
 
 .event{
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 1em;
 	width: 90%;
 	margin: 20px auto ;
 	border: 5px solid black;
@@ -111,7 +111,7 @@ main{
 	justify-content: space-between;
 }
 .event-name{
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: "Bebas Neue", sans-serif;
 	text-align: center;
 }
