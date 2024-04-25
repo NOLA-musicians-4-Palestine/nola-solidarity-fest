@@ -115,6 +115,9 @@ main{
 	font-family: "Bebas Neue", sans-serif;
 	text-align: center;
 }
+.event-date::after{
+	content: " :: ";
+}
 .event-description{
 	font-size: 0.75em;
 }
