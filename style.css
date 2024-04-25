@@ -145,7 +145,7 @@ main{
 	color: white;
 	padding: 20px 20px;
 }
-#red-divider{
+.red-divider{
 	height: 10px;
 	background-color: red;
 }
