@@ -135,7 +135,7 @@ main{
 	font-size: 1.5em;
 	display: flex;
 	justify-content: space-evenly;
-	flex: 0 10 10%;
+	flex: 0 10 40px;
 }
 
 #more-info{
@@ -158,5 +158,15 @@ footer{
 @media only screen and (max-width: 1000px) {
 	#top h1{
 		font-size: 4em;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#top h1{
+		font-size: 3em;
+	}
+
+	#sign-up{
+		font-size: 1.5em;
 	}
 }
