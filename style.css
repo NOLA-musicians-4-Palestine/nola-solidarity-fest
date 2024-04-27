@@ -94,6 +94,10 @@ main{
 	font-size: 4em;
 }
 
+#event-template{
+	display: none;
+}
+
 .event{
 	text-align: left;
 	font-size: 1em;
@@ -119,9 +123,7 @@ main{
 .event-date::after{
 	content: " :: ";
 }
-.event-description{
-	font-size: 0.75em;
-}
+
 .event a{
 	color: white;
 }
