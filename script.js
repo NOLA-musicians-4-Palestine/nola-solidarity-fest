@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	document.querySelector("#more-info-link").addEventListener("click", function(){
 		document.querySelector("#more-info").scrollIntoView({behavior: "smooth", block: "start"});
 	});
+
+	document.querySelector("#schedule").style.justifyContent = "center";
 });
 
 function reqListener() {
@@ -39,10 +41,14 @@ function reqListener() {
 
 	console.log(structured_data);
 
+	let event_template = document.querySelector("#event-template").cloneNode(true);
+	document.querySelector("#schedule").innerHTML = "";
+	document.querySelector("#schedule").style.justifyContent = "flex-start";
+
 	// now that i've got the data in a structured array
 	// duplicate the template event and and fill it in for each element in the array
 	structured_data.forEach(function(event){
-		let new_event = document.querySelector("#event-template").cloneNode(true);
+		let new_event = event_template.cloneNode(true);
 
 		new_event.querySelector(".event-name").innerText = event.name;
 		new_event.querySelector(".event-description").innerText = event.description;

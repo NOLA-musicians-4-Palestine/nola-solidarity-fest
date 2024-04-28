@@ -93,6 +93,10 @@ main{
 	display: none;
 }
 
+#loading img{
+	border-radius: 20px;
+}
+
 .event{
 	text-align: left;
 	font-size: 1em;
