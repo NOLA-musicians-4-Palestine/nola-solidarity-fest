@@ -45,6 +45,7 @@ function reqListener() {
 		let new_event = document.querySelector("#event-template").cloneNode(true);
 
 		new_event.querySelector(".event-name").innerText = event.name;
+		new_event.querySelector(".event-description").innerText = event.description;
 		new_event.querySelector(".event-location").innerText = event.location;
 		new_event.querySelector(".event-date").innerText = event.date;
 		new_event.querySelector(".event-time").innerText = event.time;
